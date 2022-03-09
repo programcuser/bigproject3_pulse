@@ -168,4 +168,13 @@ $(document).ready(function(){
         $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
         return false;
     });
+
+    //WOW animation js library
+    const wow = new WOW({
+        boxClass:     'wow',      // default
+        animateClass: 'animate__animated' // default
+
+    });
+
+    wow.init();
 });
